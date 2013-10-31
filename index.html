@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="js/noorye.js"></script>
+</head>
+<body>
+<div id="test"></div>
+
+<script>
+    console.time('test');
+    var test = document.getElementById('test');
+    var testData = [5, 8, 3, 12, 4, 9, 15, 5, 8, 3, 12, 4, 9, 15, 5, 8, 3, 12, 4, 9, 15, 5, 8, 3, 12, 4, 9, 15];
+    var noorye = new Noorye({
+        smooth: true,
+        width: 160,
+        height: 45,
+        'lineWidth': 3,
+        paddingX: 3,
+        paddingY: 3,
+        baseline: 0,
+        color: 'blue'
+    });
+    var svg = noorye.buildChart(testData);
+
+    test.innerHTML = svg;
+
+</script>
+</body>
+</html>
