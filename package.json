@@ -1,0 +1,11 @@
+{
+    "name" : "noorye",
+    "version" : "0.0.1",
+    "author" : "Kirill Sladkov <ksladkov@yandex-team.ru>",
+    "description" : "Noorye tiny svg chart",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ksladkov/noorye"
+    },
+    "private": false
+}
