@@ -1,6 +1,6 @@
 {
     "name" : "noorye",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "author" : "Kirill Sladkov <ksladkov@yandex-team.ru>",
     "description" : "Noorye tiny svg chart",
     "repository" : {
